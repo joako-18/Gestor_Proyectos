@@ -1,5 +1,7 @@
 package com.example.gestor.controller;
 
+import com.example.gestor.App;
+import com.example.gestor.models.Usuario;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -8,8 +10,6 @@ import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import org.example.gestor_proyecto.App;
-import org.example.gestor_proyecto.models.Usuario;
 
 import java.io.IOException;
 import java.net.URL;

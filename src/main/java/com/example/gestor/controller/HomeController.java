@@ -1,5 +1,9 @@
 package com.example.gestor.controller;
 
+import com.example.gestor.App;
+import com.example.gestor.models.Empleado;
+import com.example.gestor.models.Tarea;
+import com.example.gestor.models.TipoProyecto;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -12,10 +16,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import org.example.gestor_proyecto.App;
-import org.example.gestor_proyecto.models.Empleado;
-import org.example.gestor_proyecto.models.Tarea;
-import org.example.gestor_proyecto.models.TipoProyecto;
 
 import java.io.IOException;
 import java.util.ArrayList;

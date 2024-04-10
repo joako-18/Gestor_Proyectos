@@ -11,8 +11,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import org.example.gestor_proyecto.App;
-import org.example.gestor_proyecto.models.Usuario;
+import com.example.gestor.App;
+import com.example.gestor.models.Usuario;
 
 import java.io.IOException;
 import java.net.URL;

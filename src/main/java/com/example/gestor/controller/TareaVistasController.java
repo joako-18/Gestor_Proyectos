@@ -1,5 +1,9 @@
 package com.example.gestor.controller;
 
+import com.example.gestor.App;
+import com.example.gestor.models.Empleado;
+import com.example.gestor.models.Tarea;
+import com.example.gestor.models.TipoProyecto;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
@@ -19,10 +23,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import org.example.gestor_proyecto.App;
-import org.example.gestor_proyecto.models.Empleado;
-import org.example.gestor_proyecto.models.Tarea;
-import org.example.gestor_proyecto.models.TipoProyecto;
+
 
 import java.io.IOException;
 import java.net.URL;
