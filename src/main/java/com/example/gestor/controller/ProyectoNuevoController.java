@@ -1,12 +1,12 @@
 package com.example.gestor.controller;
 
+import com.example.gestor.models.*;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
-import org.example.gestor_proyecto.models.*;
 
 import java.net.URL;
 import java.time.LocalDate;
