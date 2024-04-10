@@ -1,13 +1,13 @@
 package com.example.gestor;
 
+import com.example.gestor.controller.LoginController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import org.example.gestor_proyecto.controller.LoginController;
-import org.kordamp.bootstrapfx.BootstrapFX;
+
 
 import java.io.IOException;
 
