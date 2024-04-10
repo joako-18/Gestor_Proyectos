@@ -23,7 +23,7 @@
       <TextField fx:id="IDTextField" layoutX="108.0" layoutY="306.0" />
       <ImageView fitHeight="217.0" fitWidth="252.0" layoutX="299.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Images/empleado.png" />
+            <Image url="@" />
          </image>
       </ImageView>
       <Button fx:id="guardarButton" layoutX="274.0" layoutY="353.0" mnemonicParsing="false" onAction="#guardarempleado" text="Guardar" />
