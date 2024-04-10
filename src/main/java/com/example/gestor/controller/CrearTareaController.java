@@ -1,13 +1,14 @@
 package com.example.gestor.controller;
 
+import com.example.gestor.models.Empleado;
+import com.example.gestor.models.Tarea;
+import com.example.gestor.models.TipoProyecto;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
-import org.example.gestor_proyecto.models.Empleado;
-import org.example.gestor_proyecto.models.Tarea;
-import org.example.gestor_proyecto.models.TipoProyecto;
+
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -36,7 +37,7 @@ public class CrearTareaController {
         private ObservableList<Tarea> tareas;
 
         private ArrayList<Empleado> empleadoArrayList;
-        private ArrayList<TipoProyecto>tipoProyectoArrayList;
+        private ArrayList<TipoProyecto> tipoProyectoArrayList;
 
         private ArrayList<Tarea> tareaArrayList;
 
