@@ -2,7 +2,7 @@ module com.example.gestor {
     requires javafx.controls;
     requires javafx.fxml;
     requires org.kordamp.bootstrapfx.core;
-
+    exports com.example.gestor.controller;
 
     opens com.example.gestor to javafx.fxml;
     exports com.example.gestor;
