@@ -19,7 +19,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         stageRoot = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("com/example/gestor/login-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("login-view.fxml"));
         Parent root = fxmlLoader.load();
         LoginController controller = fxmlLoader.getController();
         controller.init(stageRoot);
